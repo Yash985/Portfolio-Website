@@ -1,0 +1,56 @@
+
+#herosection{
+    height: 100vh;
+    background-image: url(./images/herosection.jpg);
+    
+}
+h1{
+    font-family: 'Borel', cursive;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#2a769a;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#2a769a;
+    
+}
+.image{
+    border-radius:50% ;
+    height: 200px;
+    width:200px;
+    transition: all ease 1s;
+}
+.marketing .col-lg-4{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+a:hover{
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    margin:7px;
+    padding-top: 10px;
+    color: white;
+    
+
+}
+  .btn{
+    border-color: #8BE8E5;
+    background-color:#2a769a;
+  }
+
+  .image-transition{
+    overflow: hidden;
+  }
+
+  .image-transition:hover img{
+    scale:1.2;
+  }
